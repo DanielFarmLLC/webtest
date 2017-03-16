@@ -14,6 +14,7 @@ public class NewTest {
               
                 
 	// NOTE: Substitute your own saved location of the geckodriver.exe as you saved previously for the name here below
+        // For Windows systems, set location "c:\\test\\selenium\\drivers\\geckodriver.exe" instead of below
 	System.setProperty("webdriver.gecko.driver","/media/jd/storage/linux/tools/drivers/geckodriver");
               
   	WebDriver driver = new FirefoxDriver();
